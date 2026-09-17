@@ -136,31 +136,3 @@ Payment success: $750.0
 Payment ID: PAY-001
 ```
 
-## Learning Roadmap
-
-**Java Core** — Variables, Methods, `static`, `final`, Class & Object, Constructor, `this` → ✅ Done
-
-**OOP** — Encapsulation, Inheritance, Method Overriding, Polymorphism, Abstraction, Interface → ✅ Done
-
-**Collections**
-- List, ArrayList, Generics → ✅ Done
-- Set → 🔜 Next
-- Map → ⬜ Not yet
-- Queue → ⬜ Not yet
-
-**After Collections**
-```
-Exception Handling → Optional → Lambda → Stream API
- → Spring Framework → Spring Boot → REST API
- → Controller → Service → Repository
- → JPA / Hibernate → PostgreSQL
-```
-
-## Next Topic
-
-**Java Collections → `Set`**
-- Fundamentals of `Set`
-- Comparison: `Set` vs `List`
-- Why `Set` is needed
-- Simple example
-- Applying it to the E-Commerce project
