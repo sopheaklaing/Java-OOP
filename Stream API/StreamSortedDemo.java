@@ -19,6 +19,7 @@ public class StreamSortedDemo {
             // Sort products by price
             // Small price → Large price
             .sorted((product1, product2) ->
+               // this have 2 product and see use Double cuz when run shored need to compeare 2 product 
                 Double.compare(
                     product1.getPrice(),
                     product2.getPrice()
