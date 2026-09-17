@@ -2,8 +2,17 @@
 /**
  * FunctionalInterfaceDemo
  */
-interface FunctionalInterfaceDemo {
+interface Greeting {
     void sayHello();  
+}
+
+// this is interface have parameter and value 
+@FunctionalInterface 
+/**
+ * InnerInnerFunctionalInterfaceDemo
+ */
+interface Calculator {
+    int add (int a , int b);
 }
 
 public class InnerFunctionalInterfaceDemo {
@@ -13,15 +22,27 @@ public class InnerFunctionalInterfaceDemo {
             System.out.println(" hello sopheak");
         };
         greeting.sayHello();
-        
-    }
 
-    // this is nomoly 
-     Greeting normalGreeting = new Greeting() {
+
+         // if have parameter and value write like this 
+         Calculator calculator =(a,b) ->{
+        return a + b;
+    };
+        // Call the method
+        int result = calculator.add(10, 20);
+
+        System.out.println("Result: " + result);  
+
+
+
+        // this is nomoly 
+    Greeting normalGreeting = new Greeting() {
 
             @Override
             public void sayHello() {
                 System.out.println("Hello Sopheak - Normal Way");
         }
     };
+    }
+
 }
